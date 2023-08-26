@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def index(request, year=''):
+    return HttpResponse(f"<h1>hello, world. you're at the polls index. Year: {year}!</h1>")
