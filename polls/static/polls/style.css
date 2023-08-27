@@ -1,0 +1,8 @@
+body {
+    background: #ffffffcc url('images/background.png') no-repeat center;
+    background-blend-mode: lighten;
+}
+
+li a {
+    color: green;
+}
