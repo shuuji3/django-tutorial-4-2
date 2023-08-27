@@ -1,6 +1,14 @@
 body {
-    background: #ffffffcc url('images/background.png') no-repeat center;
+    background: #ffffffcc url('images/background.png') center;
     background-blend-mode: lighten;
+    margin: 0;
+}
+
+h1 {
+    background: green;
+    color: white;
+    margin: 0;
+    padding: 1rem;
 }
 
 li a {
